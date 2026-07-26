@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "min_app_version": "6.01",
-  "notice": "【テスト】モデル一覧が更新されました（動作確認用）",
+  "notice": "",
   "models": [
     {"id": "gemini-3.5-flash", "label": "Gemini 3.5 Flash（推奨・最新）", "fallback": ["gemini-2.5-flash"]},
     {"id": "gemini-2.5-pro", "label": "Gemini 2.5 Pro（高精度）", "fallback": ["gemini-2.5-flash"]},
@@ -9,7 +9,6 @@
     {"id": "gemini-3-flash-preview", "label": "Gemini 3 Flash Preview（高速・プレビュー）", "fallback": ["gemini-3.5-flash", "gemini-2.5-flash"]},
     {"id": "gemini-3.1-flash-lite", "label": "Gemini 3.1 Flash Lite（高速・低コスト）", "fallback": ["gemini-2.5-flash-lite"]},
     {"id": "gemini-2.5-flash", "label": "Gemini 2.5 Flash（旧世代・2026年10月提供終了予定）", "fallback": ["gemini-2.5-flash-lite"]},
-    {"id": "gemini-2.5-flash-lite", "label": "Gemini 2.5 Flash Lite（安定・低コスト）", "fallback": []},
-    {"id": "gemini-test-new-model", "label": "【テスト】新規追加モデル（動作確認用）", "fallback": ["gemini-2.5-flash-lite"]}
+    {"id": "gemini-2.5-flash-lite", "label": "Gemini 2.5 Flash Lite（安定・低コスト）", "fallback": []}
   ]
 }
